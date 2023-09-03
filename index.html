@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendary-age</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="principal">
+      <div class="calendary">
+        <div class="calendary-box">
+          <label for="number">Day</label>
+          <input type="number" name="day" id="day" placeholder="DD"/>
+          <div class="error" id="dayError"></div>
+        </div>
+        <div class="calendary-box">
+          <label for="month">Month</label>
+          <input type="number" name="month" id="month" placeholder="MM"/>
+          <div class="error" id="monthError"></div>
+        </div>
+        <div class="calendary-box">
+          <label for="year">Year</label>
+          <input type="number" name="year" id="year" placeholder="YYYY"/>
+          <div class="error" id="yearError"></div>
+        </div>
+      </div>
+      <div class="resultado"></div>
+    </main>
+    <script src="calendary.js"></script>
+  </body>
+</html>
